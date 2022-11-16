@@ -1,0 +1,24 @@
+# yaml configuration for wip projects
+
+write_file: True #turn to False to prevent from running
+base_dir: &base_dir_path !ENV ${BASEPROJDIR}
+full_config_file: !ENV ${BASEPROJDIR}\wip_expts_v2\wip_proj.yml
+current_proj_dir: !ENV ${BASEPROJDIR}\wip_expts_v2
+data_dir_nm: datasets
+
+# list of file names used for eda etc - from raw or prcessed
+
+# various lib names &other parms 
+project_parms:
+    use_mlxtnd: 'False'
+
+process_eda:
+    main_file: *test_data_set2
+    compre_file: "none.csv"
+    pairwise_analysis: "on"
+    show_html: "False"
+
+RandomForestConfig:
+    n_estimators: 200
+    rand_state: 39
+    max_depth: 4
