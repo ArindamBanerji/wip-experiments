@@ -5,6 +5,12 @@
 		},
 		{
 			"path": ".."
+		},
+		{
+			"path": "../../dviz_work/eda_samples"
+		},
+		{
+			"path": "../../ml-webapps/streamlit_apps"
 		}
 	],
 	"settings": {}
