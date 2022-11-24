@@ -11,6 +11,9 @@
 		},
 		{
 			"path": "../../ml-webapps/streamlit_apps"
+		},
+		{
+			"path": "../../../NLP/NER_EXPTS"
 		}
 	],
 	"settings": {}
